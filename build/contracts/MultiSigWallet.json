@@ -18,7 +18,8 @@
       ],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor"
+      "type": "constructor",
+      "signature": "constructor"
     },
     {
       "constant": false,
@@ -27,7 +28,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x12424e3f"
     },
     {
       "constant": false,
@@ -36,7 +38,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x4dc415de"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"approve\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"reject\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"name\":\"_approvers\",\"type\":\"address[]\"},{\"name\":\"_minApprovers\",\"type\":\"uint256\"},{\"name\":\"_beneficiary\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{\"approve()\":{\"notice\":\"msg.sender is the intended approver with regards to this method\"}}}},\"settings\":{\"compilationTarget\":{\"/C/projects/BLOCKCHAIN STACK/multi-sign-wallet/contracts/MultiSigWallet.sol\":\"MultiSigWallet\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/projects/BLOCKCHAIN STACK/multi-sign-wallet/contracts/MultiSigWallet.sol\":{\"keccak256\":\"0x55950075875e085af4ec2deb0e3ff952f73872b2ddc2183b7cc5b4f16cbb93d8\",\"urls\":[\"bzzr://088e82d2ddc1ad179eaeb133c62c060f54c4599f363f417174dfea0e158d37c7\"]}},\"version\":1}",
@@ -3756,9 +3759,16 @@
     "name": "solc",
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xCE556107e4137DD844a597FE28448F3c47D0Ee50",
+      "transactionHash": "0xd50748581b82ba738a0aecbf8c1396bf25732b5095e696010c8f0dd72ed6e96d"
+    }
+  },
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-22T10:43:07.190Z",
+  "updatedAt": "2019-04-22T10:49:10.051Z",
   "devdoc": {
     "methods": {}
   },
